@@ -1,0 +1,16 @@
+{
+  "login": [
+    {
+      "usuario": "admin",
+      "senha": "admin"
+    },
+    {
+      "usuario": "Lobinho123",
+      "senha": "9876"
+    },
+    {
+      "usuario": "Murilin77",
+      "senha": "Loucuras"
+    }
+  ]
+}
