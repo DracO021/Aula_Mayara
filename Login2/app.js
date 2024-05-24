@@ -37,7 +37,7 @@ app.post("/login", (req, res) => {
         }
     })
 
-    db.query('SELECT password FROM User WHERE username = ?', [username], (error, results) =>{
+    db.query('SELECT username FROM User WHERE username = ?', [username], (error, results) =>{
         if(results.length > 0) {
             const usernameBD = results[0].username;
         }else {
