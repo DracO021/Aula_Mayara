@@ -62,7 +62,7 @@ app.post("/cadastro", (req, res) => {
     const password = req.body.password;
     const confirm = req.body.passwordConfirm;
 
-    /*if(password === confirm){
+    /*i f(password === confirm){
         db.query('INSERT INTO user (username, password) VALUES (?, ?)', [username, password], (error, results) => {
             if(error){
                 console.log("Erro ao realizar o cadastro", error)
@@ -84,8 +84,7 @@ app.post("/cadastro", (req, res) => {
             res.send('Usuário cadastrado com sucesso!');
         });
     } else {
-        console.log('Senhas não Coincidem')
-        res.status(500).send('Senhas não coincidem')
+        console.log('Senhas não Coincidem');
     }
    
 });
